@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab1.4_ShowColleaguesNames/ViewController.h"
+            timestampString = "576767169.035149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController nameLabel]"
+                  moduleName = "Lab1.4_ShowColleaguesNames"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/esraahassan/Documents/iOS%20using%20Objective-C%20Labs/Day-1/Lab1.4_ShowColleaguesNames/Lab1.4_ShowColleaguesNames/ViewController.h"
+                  timestampString = "576766728.733516"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController setNameLabel:]"
+                  moduleName = "Lab1.4_ShowColleaguesNames"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/esraahassan/Documents/iOS%20using%20Objective-C%20Labs/Day-1/Lab1.4_ShowColleaguesNames/Lab1.4_ShowColleaguesNames/ViewController.h"
+                  timestampString = "576766728.738324"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
