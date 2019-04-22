@@ -43,7 +43,6 @@
     //To do specific action when the ball collides
 
     collision.collisionDelegate = self;
-    [self collisionBehavior:collision endedContactForItem:_ball withBoundaryIdentifier:self.view];
     [_animator addBehavior:collision];
     _flag = true;
     
