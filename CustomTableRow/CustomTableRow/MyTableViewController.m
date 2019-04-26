@@ -21,8 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    firstLabelArray = @[@"Mai",@"Mai",@"Mai"];
-    secondLabelArray = @[@"Rokaya",@"Rokaya",@"Rokaya"];
+    firstLabelArray = @[@"Hello",@"Hello",@"Hello"];
+    secondLabelArray = @[@"Mai",@"Mai",@"Mai"];
+    imagesArray = @[@"apple.png",@"apple.png",@"apple.png"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -45,23 +46,26 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    //Custom Table View Cell using tags
     
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+//
 //    UILabel * labelOne = [cell viewWithTag:1];
 //    UILabel * labelTwo = [cell viewWithTag:3];
 //    UIImageView * img = [cell viewWithTag:2];
-//    
+//
 //    labelOne.text = [firstLabelArray objectAtIndex:indexPath.row];
 //    labelTwo.text = [secondLabelArray objectAtIndex:indexPath.row];
 //    img.image = [UIImage imageNamed:[imagesArray objectAtIndex:indexPath.row]];
-    
+//
     // Configure the cell...
     
+    //Custom Table View Cell using Class
     MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
+
     cell.firstLabel.text = [firstLabelArray objectAtIndex:indexPath.row];
      cell.secondLabel.text = [secondLabelArray objectAtIndex:indexPath.row];
-//     cell.myImage.image = [UIImage imageNamed:[imagesArray objectAtIndex:indexPath.row]];
+    cell.myImage.image = [UIImage imageNamed:[imagesArray objectAtIndex:indexPath.row]];
     return cell;
 }
 

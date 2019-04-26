@@ -15,6 +15,7 @@
 		A71BBC6C227045C900F638A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BBC6B227045C900F638A9 /* main.m */; };
 		A71BBC742270471000F638A9 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BBC732270471000F638A9 /* MyTableViewController.m */; };
 		A71BBC7722704AF000F638A9 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BBC7622704AF000F638A9 /* MyTableViewCell.m */; };
+		BA7C50992273350D00DD5ADF /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7C50982273350D00DD5ADF /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A71BBC732270471000F638A9 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		A71BBC7522704AF000F638A9 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		A71BBC7622704AF000F638A9 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		BA7C50982273350D00DD5ADF /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		A71BBC50227045C800F638A9 = {
 			isa = PBXGroup;
 			children = (
+				BA7C50982273350D00DD5ADF /* apple.png */,
 				A71BBC5B227045C800F638A9 /* CustomTableRow */,
 				A71BBC5A227045C800F638A9 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				A71BBC69227045C900F638A9 /* LaunchScreen.storyboard in Resources */,
 				A71BBC66227045C900F638A9 /* Assets.xcassets in Resources */,
+				BA7C50992273350D00DD5ADF /* apple.png in Resources */,
 				A71BBC64227045C800F638A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -285,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
